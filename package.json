@@ -3,18 +3,25 @@
     "displayName": "Pare Colors Theme",
     "description": "Pare Colors Theme for VS Code",
     "version": "1.0.0",
+    "publisher": "jliima",
     "engines": {
         "vscode": "^1.48.0"
     },
     "categories": [
         "Themes"
     ],
+    "icon": "images/thumbnail.png",
+    "homepage": "https://github.com/jliima/vscode-pare-colors-theme",
+    "repository": {
+     "type": "git",
+     "url": "https://github.com/jliima/vscode-pare-colors-theme.git"
+    },
     "contributes": {
         "themes": [
             {
                 "label": "Pare Colors",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Pare Colors Theme-color-theme.json"
+                "path": "./themes/pare-colors-theme-color-theme.json"
             }
         ]
     }
