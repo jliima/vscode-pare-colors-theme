@@ -2,7 +2,7 @@
     "name": "pare-colors-theme",
     "displayName": "Pare Colors Theme",
     "description": "Pare Colors Theme for VS Code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "jliima",
     "engines": {
         "vscode": "^1.48.0"
