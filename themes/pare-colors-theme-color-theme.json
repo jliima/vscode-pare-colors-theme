@@ -87,8 +87,6 @@
     "editorLink.activeForeground": "#CD222F",
     "editor.rangeHighlightBackground": "#55607233",
     "editorWhitespace.foreground": "#55607266",
-    "editorIndentGuide.background": "#55607244",
-    "editorIndentGuide.activeBackground": "#55607277",
     "editorRuler.foreground": "#55607244",
     "editorCodeLens.foreground": "#556072b0",
     "editorBracketMatch.background": "#55607233",
@@ -181,7 +179,6 @@
   "tokenColors": [
     {
         "settings": {
-            "background": "#10171E",
             "foreground": "#D3DDE8"
         }
     },
@@ -537,7 +534,6 @@
             "support.type.property-name"
         ],
         "settings": {
-            "fontStyle": "normal",
             "foreground": "#0BDE96"
         }
     },
@@ -628,31 +624,12 @@
         }
     },
     {
-        "name": "Markup Code",
-        "scope": [
-            "markup.raw"
-        ],
-        "settings": {
-            "background": "#D3DDE806"
-        }
-    },
-    {
-        "name": "Markup Code Inline",
-        "scope": [
-            "markup.raw.inline"
-        ],
-        "settings": {
-            "background": "#D3DDE810"
-        }
-    },
-    {
         "name": "Markdown Separator",
         "scope": [
             "meta.separator"
         ],
         "settings": {
             "fontStyle": "bold",
-            "background": "#D3DDE810",
             "foreground": "#556072b0"
         }
     },
@@ -717,7 +694,6 @@
             "markup.table"
         ],
         "settings": {
-            "background": "#D3DDE810",
             "foreground": "#0BDE96"
         }
     },
@@ -736,7 +712,6 @@
             "text.html.markdown meta.dummy.line-break"
         ],
         "settings": {
-            "background": "#556072b0",
             "foreground": "#556072b0"
         }
     },
@@ -746,8 +721,70 @@
             "punctuation.definition.markdown"
         ],
         "settings": {
-            "background": "#D3DDE8",
             "foreground": "#556072b0"
+        }
+    },
+    {
+        "name": "Log Debug",
+        "scope": [
+            "log.debug"
+        ],
+        "settings": {
+            "foreground": "#0BA3A3"
+        }
+    },
+    {
+        "name": "Log Info",
+        "scope": [
+            "log.info"
+        ],
+        "settings": {
+            "foreground": "#0BDE83"
+        }
+    },
+    {
+        "name": "Log Trace",
+        "scope": [
+            "log.trace"
+        ],
+        "settings": {
+            "foreground": "#ED7F09"
+        }
+    },
+    {
+        "name": "Log Fatal",
+        "scope": [
+            "log.fatal"
+        ],
+        "settings": {
+            "foreground": "#732128"
+        }
+    },
+    {
+        "name": "Log Error",
+        "scope": [
+            "log.error"
+        ],
+        "settings": {
+            "foreground": "#732128"
+        }
+    },
+    {
+        "name": "Log Warn",
+        "scope": [
+            "log.warn"
+        ],
+        "settings": {
+            "foreground": "#732128"
+        }
+    },
+    {
+        "name": "Log Constant",
+        "scope": [
+            "log.constant"
+        ],
+        "settings": {
+            "foreground": "#61AEED"
         }
     }
 ]
